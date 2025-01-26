@@ -10,7 +10,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      MONGO_URI: mongodb+srv://harshitbehl671:MpHarSHd1TTYdDhC@scatchcluster.koxqw.mongodb.net/scatch?retryWrites=true&w=majority&appName=ScatchCluster
+      MONGO_URI: mongodb://localhost:27017/scatch
 
   frontend:
     build:
